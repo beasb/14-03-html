@@ -202,11 +202,11 @@ border-radius: 25px;
 background-color: rgb(218, 168, 211);
 }
 
-h2{
+/* h2{
     color: #a5f;
     text-align: center;
     
-}
+} */
 
 /* 24 */
 
@@ -220,4 +220,65 @@ h2{
     width: 300px;
     border: solid red;
     margin-left: 130px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remover-underline{
+    text-decoration: none;
+    color: red;
+}
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+.spacing{
+    letter-spacing: 5px;
+}
+.serif{
+    font-family: georgia;
+}
+.sans-serif{
+    font-family: helvetica;
+}
+.monospace{
+font-family: courier new;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+.thin, .bold, .bolder{
+    font-family: helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+.small{
+    font-size: 6px;
+}
+.big{
+font-size: 78px;
 }
